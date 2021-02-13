@@ -1,0 +1,10 @@
+How to Run
+
+1. Download the source code and extract the zip file.
+2. Download or set up any local web server that runs PHP script.
+3. Make sure to uncomment the "extension=sockets" line in your php.ini file.
+4. Run the "php-socket.php" file in your command line or terminal. [ php php-socket.php ]
+5. Open the web-server database and create a new database name it "rios_db".
+6. Import the SQL file located in the database folder of the source code.
+7. Copy and paste the source code to the location where your local web server accessing your local projects. Example for XAMPP('C:\xampp\htdocs')
+8. Open a web browser and browse the project. E.g [http://localhost/rios] Note: If ever you renamed the source code folder or pasted it to another folder, make sure that you change the base_url value also in the config.php file.
